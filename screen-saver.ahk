@@ -14,7 +14,7 @@ SetTimer(CheckPreventScreenSaver, 60000)
 
 ; Toggle the preventScreenSaver variable with Ctrl + « (Left Double Angle Quote)
 ^!«:: {
-	global preventScreenSaver
+    global preventScreenSaver
     preventScreenSaver := !preventScreenSaver
     if (preventScreenSaver) {
         TrayTip "Screen saver prevention enabled."
